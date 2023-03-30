@@ -3,7 +3,7 @@ import scipy.sparse as sp
 import scipy.io as sio
 
 # Load a sparse matrix from the SuiteSparse Matrix Collection
-mat = sio.mmread("/Users/jithinrajan/Downloads/1138_bus/1138_bus.mtx").tocsr()
+mat = sio.mmread("path.mtx").tocsr()
 
 # Convert the matrix into an adjacency list representation
 adj_list = {}
